@@ -1,0 +1,95 @@
+body {
+  font-family: "Inter";
+}
+
+#hero-mobile {
+  background-color: #7550FE;
+  padding: 2rem 1rem;
+}
+@media (min-width: 992px) {
+  #hero-mobile {
+    display: none;
+  }
+}
+#hero-mobile #mainText-mobile {
+  text-align: left;
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+#hero-mobile #mainText-mobile h1 {
+  margin-bottom: 1rem;
+}
+#hero-mobile #heroButtons-mobile {
+  margin-bottom: 2rem;
+}
+#hero-mobile #heroButtons-mobile .btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+#hero-mobile #heroImg-mobile {
+  max-width: 100%;
+  height: auto;
+}
+
+#hero-desktop {
+  display: none;
+}
+@media (min-width: 992px) {
+  #hero-desktop {
+    display: block;
+    background-color: #7550FE;
+  }
+}
+
+#main {
+  background-color: #7550FE;
+}
+
+#mainText {
+  padding-left: 200px;
+}
+
+#buttonOne,
+#buttonOne-mobile {
+  background-color: #1acb98;
+  padding: 40px;
+  color: white;
+  font-weight: 700;
+}
+
+#buttonTwo,
+#buttonTwo-mobile {
+  background-color: #ffffff;
+  padding: 40px;
+  font-weight: 700;
+}
+
+#course-features {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px -1px rgba(0, 0, 0, 0.274);
+}
+#course-features .feature-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #FFE5D3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#course-features .feature-icon i {
+  font-size: 24px;
+  color: #502a0f;
+}
+#course-features .feature-text h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+#course-features .feature-text p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  color: #6c757d;
+}
+
+/*# sourceMappingURL=style.css.map */
