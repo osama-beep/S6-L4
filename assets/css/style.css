@@ -18,6 +18,10 @@ body {
 }
 #hero-mobile #mainText-mobile h1 {
   margin-bottom: 1rem;
+  color: white;
+}
+#hero-mobile #mainText-mobile p {
+  color: rgba(189, 188, 188, 0.801);
 }
 #hero-mobile #heroButtons-mobile {
   margin-bottom: 2rem;
@@ -48,6 +52,14 @@ body {
 
 #mainText {
   padding-left: 200px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: rgba(189, 188, 188, 0.801);
 }
 
 #buttonOne,

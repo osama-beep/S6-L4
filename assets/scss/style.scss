@@ -8,6 +8,7 @@ body {
 #hero-mobile {
   background-color: $first-background-color;
   padding: 2rem 1rem;
+  
 
   @media (min-width: 992px) {
     display: none;
@@ -20,6 +21,10 @@ body {
 
     h1 {
       margin-bottom: 1rem;
+      color: white;
+    }
+    p {
+      color: rgba(189, 188, 188, 0.801);
     }
   }
 
@@ -54,6 +59,14 @@ body {
 
 #mainText {
   padding-left: 200px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: rgba(189, 188, 188, 0.801);
 }
 
 #buttonOne,
